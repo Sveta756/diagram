@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="diagram">
+            <svg width="50" class="diagram__line">
+                <path fill="none" stroke="#cccccc" d="M10,390 v-200 a5,5 0 0 1 5,-5 h35"/> 
+                <polyline stroke="#cccccc" points="10,360 30,360"/> 
+                <polyline stroke="#cccccc" fill="none" points="10,400 10,420"/>
+                <polyline stroke="#cccccc" fill="none" points="0,410 20,410"/>
+                <path fill="none" stroke="#cccccc" d="M25,440 h-10 a5,5 0 0 1 -5,-5 v-10"/> 
+            </svg>
+            <div class="diagram__wrapper">
+                <svg width="350" height="100%" viewBox="0 0 42 42" class="diagram__circle">
+                    <use class ="diagram__use" xlink:href="icon/icon.svg#loyalty" x="45%" width="10" height="12"></use>
+                    <circle class="diagram__section diagram__section_hole" cx="50%" cy="50%" r="15.91549430918954" fill="#fff"></circle>
+                    <circle class="diagram__section diagram__section_third" cx="50%" cy="50%" r="15.91549430918954" fill="transparent" stroke-width="3"></circle>
+                    <circle class="diagram__section diagram__section_second" cx="50%" cy="50%" r="15.91549430918954" fill="transparent" stroke-width="3"></circle>
+                    <circle class="diagram__section diagram__section_first" cx="50%" cy="50%" r="15.91549430918954" fill="transparent" stroke-width="3"></circle>
+                    <g class="diagram__text">
+                        <text x="50%" y="30%" class="diagram__number">
+                          72
+                          <tspan class="diagram__decimal" dx="-1.8">.7</tspan>
+                          <tspan class="diagram__percent" dx="-3.3" dy="-3">%</tspan>
+                        </text>
+                        <text x="50%" y="30%" class="diagram__title">
+                          Лояльность
+                        </text>
+                        <text x="50%" y="40%" class="diagram__subtitle">
+                            ниже среднего
+                        </text>
+                        <text x="50%" y="50%" class="diagram__textmini">
+                            по отрасли: FMCG
+                        </text>
+                        <text x="50%" y="55%" class="diagram__textmini">
+                            значений слева от медианы
+                        </text>
+                        <text x="50%" y="60%" class="diagram__textmini">
+                            52.0% - 83.1%
+                        </text>
+                        <use class="diagram__arrow" xlink:href="icon/icon.svg#arrow-up" x="45%" y="72%" width="2" height="2" ></use>
+                        <text x="53%" y="70%" class="diagram__up">
+                            3.1
+                        </text>
+                    </g>
+                </svg>
+                <div class="legend">
+                    <div class="legend__block">
+                        <p class="legend__title">Промоутеры</p>
+                        <div class="legend__people">
+                            <p class="legend__percent">32.0%</p>
+                            <div class="legend__quantity">
+                                <span class="legend__span">81</span>
+                                <svg class="legend__icon">
+                                    <use xlink:href="icon/icon.svg#human_full"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <svg width="150" height="50">
+                            <rect x="0" y="0" width="100%" height="100%" rx="10"
+                            fill="#f9f9f9" stroke="#ececec" stroke-width="2"/>   
+                            <path fill="#70a84b" class="animate" stroke="none" d="M0,40 v-30 a10,10 0 0 1 10,-10 h55 v40"/> 
+                            <path fill="#b5d0a2" class="animate" stroke="none" d="M60,50 h-55 a5,5 0 0 1 -5,-5 v-5 h60"/>  
+                            <text x="90" y="30" class="legend__text">+1.2%</text>
+                         </svg>
+                    </div>
+    
+                    <div class="legend__block">
+                        <p class="legend__title">Скептики</p>
+                        <div class="legend__people">
+                            <p class="legend__percent">39.1%</p>
+                            <div class="legend__quantity">
+                                <span class="legend__span">8</span>
+                                <svg class="legend__icon">
+                                    <use xlink:href="icon/icon.svg#human_full"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <svg width="150" height="50">
+                            <rect x="0" y="0" width="100%" height="100%" rx="10"
+                            fill="#f9f9f9" stroke="#ececec" stroke-width="2"/> 
+                            <path fill="#fbd229" class="animate" stroke="none" d="M0,40 v-30 a10,10 0 0 1 10,-10 h60 v40"/>  
+                            <path fill="#fae691" class="animate" stroke="none" d="M58,50 h-53 a5,5 0 0 1 -5,-5 v-5 h58"/> 
+                            <text x="90" y="30" class="legend__text">+4.8%</text>
+                         </svg>
+                    </div>
+    
+                    <div class="legend__block">
+                        <p class="legend__title">Критики</p>
+                        <div class="legend__people">
+                            <p class="legend__percent">79.8%</p>
+                            <div class="legend__quantity">
+                                <span class="legend__span">7</span>
+                                <svg class="legend__icon">
+                                    <use xlink:href="icon/icon.svg#human_full"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <svg width="155" height="50">
+                            <rect x="0" y="0" width="100%" height="100%" rx="10"
+                            fill="#f9f9f9" stroke="#ececec" stroke-width="2"/>
+                            <path fill="#ed5243" class="animate" stroke="none" d="M0,40 v-30 a10,10 0 0 1 10,-10 h50 v40"/>  
+                            <path fill="#f3a69e" class="animate" stroke="none" d="M70,50 h-65 a5,5 0 0 1 -5,-5 v-5 h70"/> 
+                            <text x="95" y="30" class="legend__text">-9.7%</text>
+                         </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

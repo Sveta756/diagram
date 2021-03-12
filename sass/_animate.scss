@@ -1,0 +1,21 @@
+.animate {
+    animation-name: fadeInLeft;
+    animation-duration: 1.5s;
+}
+
+@keyframes fadeInLeft {
+    from {
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    to {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes render {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+}
